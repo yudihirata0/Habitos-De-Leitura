@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hábitos De Leitura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <form action="/submit" method="POST">
+        <H1>Hábitos de Leitura</H1>
+        <fieldset>
+            <legend>Informações Pessoais</legend>
+    <br>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required placeholder="Digite seu nome">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Digite seu email">
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" minlength="8" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Preferências</legend>
+            <label for="newsletter">
+              <input type="checkbox" id="newsletter" name="newsletter" checked>
+              Romance
+            </label>
+            <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+               Drama
+              </label>
+              <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+               Ação
+              </label>
+              <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+               Suspense
+              </label>
+              <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+                Comédia
+              </label>
+              <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+                Contos
+              </label>
+              <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+                Infantis
+              </label>
+              <label for="newsletter">
+                <input type="checkbox" id="newsletter" name="newsletter" checked>
+                Gibis
+              </label>
+              <br><br>
+              <label for="reading frequency">Frequência de Leitura:</label>
+              <select id="reading frequency" name="reading frequency">
+                <option value="diariamente">Diariamente</option>
+                <option value="semanalmente">Semanalmente</option>
+                <option value="semanalmente">Mensalmente</option>
+                <option value="semanalmente">Raramente</option>
+                <option value="semanalmente">Nunca</option>
+              </select>
+          </fieldset> 
+         
+    
+        <button type="submit">Enviar</button>
+
+   </main>

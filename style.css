@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+main{
+    margin: auto;
+    margin-top: 200px;
+    background-color: #ffffff;
+    width: 700px;
+    height: 300px;
+    border-radius: 45px;
+    box-shadow: 3px 5px 15px #000000;
+    padding: 40px;
+    border-color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px 10px #000000;
+}
+label{
+    color: rgba(0, 0, 0, 0.76);
+}
+.altura1{
+    margin-bottom: 15px;
+    width: 90%;
+    height: 35px;
+    float: left;
+    margin-left: 5%;
+    border-radius: 13px;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    margin-left: 0px;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    box-shadow: 1.5px 1.5px 5px #ffffff;
+    cursor: pointer;
+}
